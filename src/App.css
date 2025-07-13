@@ -1,35 +1,38 @@
-.App {
-  text-align: center;
-}
-
 .header {
-  color: rgb(97, 49, 219);
-  font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: rgb(97, 49, 219);
+    font-size: 32px;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+  }
   
-  background-color: black;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  width: 100%;
-}
-
-.header nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-.header nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-.header nav ul li a {
-  color: inherit;
-  text-decoration: none;
-  font-size: 24px;
-}
-
-.basic{
-    color: blue;
-    font-size: 80px;
-}
+  .header .logo {
+    font-weight: bold;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .header nav ul li a {
+    color: rgb(97, 49, 219);
+    text-decoration: none;
+    font-size: 20px;
+    transition: opacity 0.2s ease;
+  }
+  
+  .header nav ul li a:hover {
+    opacity: 0.6;
+  }
+  
