@@ -18,15 +18,13 @@ function App() {
           </ul>
         </nav>
       </header>
-      <main>
-        <p className="basic">Hi!</p>
-        <p className="basic">Hi!</p>
-        <p className="basic">Hi!</p>
-        <p className="basic">Hi!</p>
-        <p className="basic">Hi!</p>
-        <p className="basic">Hi!</p>
-        <p className="basic">Hi!</p>
-      </main>
+      <section className ="bigphoto">
+        <img src="/images/KalonjiIMG.jpg"></img>
+        <div className="bpText">
+            <h2 className="h2v1">Newly Created</h2>
+            <button>Products</button>
+        </div>
+      </section>
     </div>
   );
 }
