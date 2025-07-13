@@ -3,9 +3,14 @@
 }
 
 .header {
-  color: aqua;
-  font-size: 50px;
-  padding: 20px;
+  color: rgb(97, 49, 219);
+  font-size: 40px;
+  
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 }
 
 .header nav ul {
@@ -22,4 +27,9 @@
   color: inherit;
   text-decoration: none;
   font-size: 24px;
+}
+
+.basic{
+    color: blue;
+    font-size: 80px;
 }

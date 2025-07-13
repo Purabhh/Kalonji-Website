@@ -18,6 +18,15 @@ function App() {
           </ul>
         </nav>
       </header>
+      <main>
+        <p className="basic">Hi!</p>
+        <p className="basic">Hi!</p>
+        <p className="basic">Hi!</p>
+        <p className="basic">Hi!</p>
+        <p className="basic">Hi!</p>
+        <p className="basic">Hi!</p>
+        <p className="basic">Hi!</p>
+      </main>
     </div>
   );
 }
